@@ -23,6 +23,7 @@ public class MinhaPrimeiraController {
     //METODO (FUNCIONALIDADE) DE UMA CLASSE
     @GetMapping("/primeiroMetodo")
     public String primeiraMensagem() {
+
         return "Funcionou";
     }
 
